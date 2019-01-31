@@ -50,8 +50,6 @@ class BasicTaskTableViewController: UITableViewController, ButtonTableViewCellDe
         cell.update(withTask: task)
         cell.primaryLabel.text = task.name
         cell.updateButton(task.isComplete)
-        //cell.update(withTask: task)
-        //tableView.endUpdates()
         viewDidLoad()
         // Configure the cell...
         
